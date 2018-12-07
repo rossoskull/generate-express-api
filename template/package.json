@@ -1,0 +1,29 @@
+{
+  "name": "express-api-generator",
+  "version": "1.0.0",
+  "description": "API",
+  "main": "server.js",
+  "scripts": {
+    "start": "clear && nodemon server.js"
+  },
+  "keywords": [
+    "express",
+    "api",
+    "generator",
+    "express-api-generator",
+    "auth"
+  ],
+  "author": "rossoskull",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.2",
+    "body-parser": "^1.18.3",
+    "dotenv": "^6.1.0",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.3.0",
+    "mongoose": "^5.3.7"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.5"
+  }
+}
