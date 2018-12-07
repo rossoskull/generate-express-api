@@ -32,27 +32,27 @@ If the environment variables are set, and a port is designated, the server will 
 #### Working with the API
 Initially, API for Login and signup functionalities is readily available.
 ##### /register/
-*Description* Registers a user with the given details
-*Request type* POST  
-*Header body* { fname, lname, email, username, password }
-*Response* A status code, and a response message.  
+**Description** Registers a user with the given details  
+**Request type** POST  
+**Header body** { fname, lname, email, username, password }  
+**Response** A status code, and a response message.  
 
 ##### /register/username/
-*Description* Checks if the username is already used.
-*Request type* POST  
-*Header body* { username }
-*Response* A status code, and a response message.  
+**Description** Checks if the username is already used.  
+**Request type** POST  
+**Header body** { username }  
+**Response** A status code, and a response message.  
 
 ##### /register/email
-*Description* Checks if the email is already used.
-*Request type* POST  
-*Header body* { email }
-*Response* A status code, and a response message. 
+**Description** Checks if the email is already used.  
+**Request type** POST  
+**Header body** { email }  
+**Response** A status code, and a response message. 
 
 ##### /login/
-*Description* Logs in a user with the given details.
-*Request type* POST  
-*Header body* { username, password }
-*Response* A status code, a response message and a JWT token.
+**Description** Logs in a user with the given details.  
+**Request type** POST  
+**Header body** { username, password }  
+**Response** A status code, a response message and a JWT token.
 
 #### Made from scratch by Jay Mistry
