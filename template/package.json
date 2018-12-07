@@ -4,7 +4,7 @@
   "description": "API",
   "main": "server.js",
   "scripts": {
-    "start": "clear && nodemon server.js"
+    "start": "node server.js"
   },
   "keywords": [
     "express",
@@ -22,8 +22,5 @@
     "express": "^4.16.4",
     "jsonwebtoken": "^8.3.0",
     "mongoose": "^5.3.7"
-  },
-  "devDependencies": {
-    "nodemon": "^1.18.5"
   }
 }
