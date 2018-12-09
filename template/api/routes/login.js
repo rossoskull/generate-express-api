@@ -45,7 +45,7 @@ router.post('/', (req, res, next) => {
 					}
 
 					// Generate the token
-					const token = jwt.sign(payLoad, process.env.JWT_KEY, jwtOptions)
+					const token = jwt.sign(payLoad, 'YOUR_JWT_KEY', jwtOptions)
 
 					// Send the token
 					res.status(200).json({
