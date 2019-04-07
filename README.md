@@ -1,6 +1,6 @@
 ## generate-express-api
 [![npm](https://img.shields.io/npm/v/generate-express-api.svg)](https://www.npmjs.com/package/generate-express-api) 
-[![npm](https://img.shields.io/npm/dm/generate-express-api.svg)](https://www.npmjs.com/package/generate-express-api)
+[![npm](https://img.shields.io/npm/dt/generate-express-api.svg)](https://www.npmjs.com/package/generate-express-api)
 [![npm](https://img.shields.io/npm/l/generate-express-api.svg)](https://www.npmjs.com/package/generate-express-api)
 #### To install
 Copy the following command, and execute it in your terminal.
